@@ -3,7 +3,7 @@
 
 ---
 
-**Multiples of 3 or 5**
+# Multiples of 3 or 5 
 
 DESCRIPTION:
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -14,8 +14,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
     def solution(number):
         return sum(x for x in range(number) if x % 3 == 0 or x % 5 == 0)
 
-I wrote some code to get the answer when a user enters the number. 
-With some additional defensive programming.
+I wrote some code to get the answer when a user enters the number, with some additional defensive programming.
 
     import math
 
@@ -54,3 +53,4 @@ With some additional defensive programming.
 
     solution_test = solution(number)
   
+---
